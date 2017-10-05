@@ -1,0 +1,26 @@
+{
+  "name": "apartments",
+  "version": "1.0.0",
+  "description": "Apartmently",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsersch/apartments.git"
+  },
+  "author": "Dave, Chase, Andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsersch/apartments/issues"
+  },
+  "homepage": "https://github.com/dsersch/apartments#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mongoose": "4.10.8",
+    "morgan": "^1.9.0"
+  }
+}
