@@ -1,5 +1,5 @@
 const 
-    Apartment = require('../apartments/Apartment.js')
+    Apartment = require('../models/apartments.js')
 
     module.exports = {
         //index
@@ -39,5 +39,6 @@ const
                 if(err) return console.log(err)
                 res.json({success: true, message: "Apartment was deleted."})
             })
-        }
-    }
+        } 
+        
+    }    
